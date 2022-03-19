@@ -1,7 +1,6 @@
 package com.xkazxx.designpattern.FactoryParttern;
 
 import com.xkazxx.designpattern.FactoryParttern.bean.Car;
-import com.xkazxx.designpattern.FactoryParttern.bean.CarFunction;
 import com.xkazxx.designpattern.FactoryParttern.bean.Tire;
 
 /**
