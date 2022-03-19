@@ -11,6 +11,15 @@ import lombok.Data;
  **/
 @Data
 @AllArgsConstructor
-public class TeslaCar extends Car{
+public class TeslaCar extends Car implements CarFunction{
 
+	@Override
+	public void drive() {
+		System.out.println("特斯拉开动了，呜呜呜~~~");
+	}
+
+	@Override
+	public void park() {
+		System.out.println("特斯拉停车了，呜呜呜~~");
+	}
 }

@@ -13,9 +13,13 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Tire {
+public class Tire implements TireFunction {
 	private String tireType;
 	private String name;
 	private Double price;
 
+	@Override
+	public void scroll() {
+		System.out.println("轮胎动起来了，呜呜呜~~~");
+	}
 }
