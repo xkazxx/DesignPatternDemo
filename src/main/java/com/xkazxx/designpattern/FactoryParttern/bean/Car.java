@@ -1,6 +1,6 @@
 package com.xkazxx.designpattern.FactoryParttern.bean;
 
-import lombok.Data;
+import lombok.*;
 
 /**
  *
@@ -11,6 +11,8 @@ import lombok.Data;
  * @description: description
  * @date: 2022/3/19 22:01
  **/
+@AllArgsConstructor
+@NoArgsConstructor
 @Data
 public abstract class Car {
 	private String carType;
@@ -18,5 +20,12 @@ public abstract class Car {
 	private Double price;
 
 
-
+	@Override
+	public String toString() {
+		return "Car{" +
+						"carType='" + carType + '\'' +
+						", name='" + name + '\'' +
+						", price=" + price +
+						'}';
+	}
 }

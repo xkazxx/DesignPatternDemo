@@ -13,11 +13,7 @@ import com.xkazxx.designpattern.FactoryParttern.bean.WULinCar;
 public class WuLiCarCarFactory implements CarFactoryMethod, AbstractCarFactory{
 	@Override
 	public Car getCar() {
-		WULinCar wuLinCar = new WULinCar();
-		wuLinCar.setName("五菱mini");
-		wuLinCar.setCarType("五菱宏光");
-		wuLinCar.setPrice(42000.0);
-		return wuLinCar;
+		return new WULinCar("五菱mini", "五菱宏光", 42000.0);
 	}
 
 	@Override

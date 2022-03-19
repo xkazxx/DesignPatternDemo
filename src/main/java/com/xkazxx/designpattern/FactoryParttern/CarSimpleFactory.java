@@ -27,18 +27,10 @@ public class CarSimpleFactory {
 	}
 
 	public static Car getTesla() {
-		TeslaCar teslaCar = new TeslaCar();
-		teslaCar.setName("特斯拉");
-		teslaCar.setCarType("Mode Y");
-		teslaCar.setPrice(220000.0);
-		return teslaCar;
+		return new TeslaCar("特斯拉", "Mode Y", 220000.0);
 	}
 
 	public static Car getWuLin() {
-		WULinCar wuLinCar = new WULinCar();
-		wuLinCar.setName("五菱mini");
-		wuLinCar.setCarType("五菱宏光");
-		wuLinCar.setPrice(42000.0);
-		return wuLinCar;
+		return new WULinCar("五菱mini", "五菱宏光", 42000.0);
 	}
 }

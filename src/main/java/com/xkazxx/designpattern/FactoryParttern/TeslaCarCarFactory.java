@@ -13,11 +13,7 @@ import com.xkazxx.designpattern.FactoryParttern.bean.Tire;
 public class TeslaCarCarFactory implements CarFactoryMethod, AbstractCarFactory {
 	@Override
 	public Car getCar() {
-		TeslaCar teslaCar = new TeslaCar();
-		teslaCar.setName("特斯拉");
-		teslaCar.setCarType("Mode Y");
-		teslaCar.setPrice(220000.0);
-		return teslaCar;
+		return new TeslaCar("特斯拉", "Mode Y", 220000.0);
 	}
 
 	@Override
