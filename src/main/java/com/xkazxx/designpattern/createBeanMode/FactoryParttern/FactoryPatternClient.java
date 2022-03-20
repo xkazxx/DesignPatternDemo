@@ -1,7 +1,7 @@
-package com.xkazxx.designpattern.FactoryParttern;
+package com.xkazxx.designpattern.createBeanMode.FactoryParttern;
 
-import com.xkazxx.designpattern.FactoryParttern.bean.Car;
-import com.xkazxx.designpattern.FactoryParttern.bean.TeslaCar;
+import com.xkazxx.designpattern.createBeanMode.FactoryParttern.bean.Car;
+import com.xkazxx.designpattern.createBeanMode.FactoryParttern.bean.TeslaCar;
 
 /**
  * @version v0.1

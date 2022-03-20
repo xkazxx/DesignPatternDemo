@@ -1,6 +1,6 @@
-package com.xkazxx.designpattern.BuilderPattern;
+package com.xkazxx.designpattern.createBeanMode.BuilderPattern;
 
-import com.xkazxx.designpattern.BuilderPattern.bean.Phone;
+import com.xkazxx.designpattern.createBeanMode.BuilderPattern.bean.Phone;
 
 /**
  * @version v0.1

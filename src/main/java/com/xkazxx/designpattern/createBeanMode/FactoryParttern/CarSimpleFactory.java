@@ -1,8 +1,8 @@
-package com.xkazxx.designpattern.FactoryParttern;
+package com.xkazxx.designpattern.createBeanMode.FactoryParttern;
 
-import com.xkazxx.designpattern.FactoryParttern.bean.Car;
-import com.xkazxx.designpattern.FactoryParttern.bean.TeslaCar;
-import com.xkazxx.designpattern.FactoryParttern.bean.WULinCar;
+import com.xkazxx.designpattern.createBeanMode.FactoryParttern.bean.Car;
+import com.xkazxx.designpattern.createBeanMode.FactoryParttern.bean.TeslaCar;
+import com.xkazxx.designpattern.createBeanMode.FactoryParttern.bean.WULinCar;
 
 /**
  * 简单工厂， 当有新的车品牌加入时，必须要修改这个工厂类才能获取到新的车对象，

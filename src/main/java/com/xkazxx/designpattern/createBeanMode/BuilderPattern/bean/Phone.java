@@ -1,4 +1,4 @@
-package com.xkazxx.designpattern.BuilderPattern.bean;
+package com.xkazxx.designpattern.createBeanMode.BuilderPattern.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

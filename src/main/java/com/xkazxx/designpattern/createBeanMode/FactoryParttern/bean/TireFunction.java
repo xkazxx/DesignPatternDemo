@@ -1,4 +1,4 @@
-package com.xkazxx.designpattern.FactoryParttern.bean;
+package com.xkazxx.designpattern.createBeanMode.FactoryParttern.bean;
 
 /**
  * 定义了轮胎的功能

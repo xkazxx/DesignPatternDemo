@@ -1,6 +1,6 @@
-package com.xkazxx.designpattern.prototypePattern;
+package com.xkazxx.designpattern.createBeanMode.prototypePattern;
 
-import com.xkazxx.designpattern.prototypePattern.bean.Airplane;
+import com.xkazxx.designpattern.createBeanMode.prototypePattern.bean.Airplane;
 
 import java.io.*;
 import java.util.Arrays;

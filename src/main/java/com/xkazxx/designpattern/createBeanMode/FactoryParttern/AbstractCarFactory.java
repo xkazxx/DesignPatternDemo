@@ -1,7 +1,7 @@
-package com.xkazxx.designpattern.FactoryParttern;
+package com.xkazxx.designpattern.createBeanMode.FactoryParttern;
 
-import com.xkazxx.designpattern.FactoryParttern.bean.Car;
-import com.xkazxx.designpattern.FactoryParttern.bean.Tire;
+import com.xkazxx.designpattern.createBeanMode.FactoryParttern.bean.Car;
+import com.xkazxx.designpattern.createBeanMode.FactoryParttern.bean.Tire;
 
 /**
  * 抽象工厂模式：定义具体每种汽车工厂能力，如需要扩展新的功能需要修改所有的工厂，包括抽象工厂

@@ -1,6 +1,4 @@
-package com.xkazxx.designpattern.FactoryParttern.bean;
-
-import lombok.Data;
+package com.xkazxx.designpattern.createBeanMode.FactoryParttern.bean;
 
 /**
  *  定义了车的功能

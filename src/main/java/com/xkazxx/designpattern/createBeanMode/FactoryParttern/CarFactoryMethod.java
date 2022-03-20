@@ -1,6 +1,6 @@
-package com.xkazxx.designpattern.FactoryParttern;
+package com.xkazxx.designpattern.createBeanMode.FactoryParttern;
 
-import com.xkazxx.designpattern.FactoryParttern.bean.Car;
+import com.xkazxx.designpattern.createBeanMode.FactoryParttern.bean.Car;
 
 /**
  * 工厂方法：所有的CarType工厂都实现这个工厂类，没增加一种新的车品牌就增加一个该工厂的实现类
