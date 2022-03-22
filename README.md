@@ -13,3 +13,5 @@
     1、适配器模式：com.xkazxx.designpattern.structureMode.adapterPattern
 
     2、桥接模式：com.xkazxx.designpattern.structureMode.bridgePattern
+
+    3、代理模式：com.xkazxx.designpattern.structureMode.proxyPattern
