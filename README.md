@@ -7,4 +7,9 @@
     3、建造者模式：com.xkazxx.designpattern.createBeanMode.BuilderPattern
 
 	4、原型模式：com.xkazxx.designpattern.createBeanMode.prototypePattern
-				
+
+**结构型模式**：com.xkazxx.designpattern.structureMode
+    
+    1、适配器模式：com.xkazxx.designpattern.structureMode.adapterPattern
+
+    2、桥接模式：com.xkazxx.designpattern.structureMode.bridgePattern
