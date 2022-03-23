@@ -1,6 +1,6 @@
 **对象创建型模式**：com.xkazxx.designpattern.createBeanMode  
 
-    1、单例模式:
+    1、单例模式: com.xkazxx.designpattern.createBeanMode.singletonPattern
 
     2、工厂模式：com.xkazxx.designpattern.createBeanMode.FactoryParttern
 

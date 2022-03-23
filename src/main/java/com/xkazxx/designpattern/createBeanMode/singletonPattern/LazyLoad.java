@@ -1,5 +1,7 @@
 package com.xkazxx.designpattern.createBeanMode.singletonPattern;
 
+import lombok.SneakyThrows;
+
 /**
  * 懒加载 volatile + 双检锁
  *
@@ -11,8 +13,19 @@ package com.xkazxx.designpattern.createBeanMode.singletonPattern;
 public class LazyLoad {
 
   private static volatile LazyLoad instance;
+  private static volatile Boolean initFlag = Boolean.FALSE;
 
+  @SneakyThrows
   private LazyLoad() {
+    synchronized (LazyLoad.class) {
+      if(initFlag){
+        throw new IllegalAccessException("非法操作！");
+      }
+      initFlag = Boolean.TRUE;
+      if (instance != null) {
+        throw new IllegalAccessException("非法操作！");
+      }
+    }
   }
 
   public static LazyLoad getInstance() {
