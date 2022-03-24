@@ -1,4 +1,4 @@
-package com.xkazxx.designpattern;
+package com.xkazxx.designpattern.behaviorMode;
 
 /**
  * @version v0.1

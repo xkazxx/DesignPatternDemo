@@ -17,3 +17,13 @@
     3、代理模式：com.xkazxx.designpattern.structureMode.proxyPattern
 
     4、装饰者模式：com.xkazxx.designpattern.structureMode.decoratePattern
+
+    5、组合模式：com.xkazxx.designpattern.structureMode.compositePattern
+    
+    6、外观模式：com.xkazxx.designpattern.structureMode.facadePattern
+
+    7、享元模式：com.xkazxx.designpattern.structureMode.flyweightPattern
+
+**行为模式**：com.xkazxx.designpattern.behaviorMode
+    
+    1、模板方法模式：com.xkazxx.designpattern.behaviorMode
