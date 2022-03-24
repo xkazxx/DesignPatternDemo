@@ -15,3 +15,5 @@
     2、桥接模式：com.xkazxx.designpattern.structureMode.bridgePattern
 
     3、代理模式：com.xkazxx.designpattern.structureMode.proxyPattern
+
+    4、装饰者模式：com.xkazxx.designpattern.structureMode.decoratePattern
