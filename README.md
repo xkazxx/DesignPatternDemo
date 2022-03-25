@@ -29,3 +29,5 @@
     1、模板方法模式：com.xkazxx.designpattern.behaviorMode.templateMethodPattern
     
     2、命令模式：com.xkazxx.designpattern.behaviorMode.commandPattern
+    
+    3、观察者模式：com.xkazxx.designpattern.behaviorMode.observerPattern
