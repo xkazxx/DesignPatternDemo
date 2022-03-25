@@ -42,7 +42,7 @@
     
     8、状态模式：com.xkazxx.designpattern.behaviorMode.statePattern
     
-    9、策略模式
+    9、策略模式：com.xkazxx.designpattern.behaviorMode.strategyPattern
 
     10、责任链模式
 
