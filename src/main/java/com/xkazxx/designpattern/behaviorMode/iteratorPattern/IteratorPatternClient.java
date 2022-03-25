@@ -9,6 +9,6 @@ package com.xkazxx.designpattern.behaviorMode.iteratorPattern;
 public class IteratorPatternClient {
 
   public static void main(String[] args) {
-
+    // 多用于集合的变量操作
   }
 }

@@ -38,9 +38,9 @@
 
     6、备忘录模式：com.xkazxx.designpattern.behaviorMode.memorandumPattern
     
-    7、解释器模式：
+    7、解释器模式：com.xkazxx.designpattern.behaviorMode.explainPattern
     
-    8、状态模式
+    8、状态模式：com.xkazxx.designpattern.behaviorMode.statePattern
     
     9、策略模式
 
