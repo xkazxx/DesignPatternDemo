@@ -31,3 +31,5 @@
     2、命令模式：com.xkazxx.designpattern.behaviorMode.commandPattern
     
     3、观察者模式：com.xkazxx.designpattern.behaviorMode.observerPattern
+    
+    4、中介模式：com.xkazxx.designpattern.behaviorMode.mediatorPattern
