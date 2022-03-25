@@ -32,10 +32,6 @@ class Engineer extends Staff {
 		super(name, kpi);
 	}
 
-	public void processCodeLines() {
-		System.out.println("[" + getName() + "]工程师的代码数量是[" + getKpi() + "]");
-	}
-
 	@Override
 	public void accept(IVisitor visitor) {
 		visitor.visit(this);
@@ -52,10 +48,6 @@ class Manager extends Staff {
 
 	public Manager(String name, int kpi) {
 		super(name, kpi);
-	}
-
-	public void processProductNum() {
-		System.out.println("[" + getName() + "]经理的产品数量是[" + getKpi() + "]");
 	}
 
 	@Override
