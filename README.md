@@ -30,6 +30,20 @@
     
     2、命令模式：com.xkazxx.designpattern.behaviorMode.commandPattern
     
-    3、观察者模式：com.xkazxx.designpattern.behaviorMode.observerPattern
+    3、迭代器模式：com.xkazxx.designpattern.behaviorMode.iteratorPattern
     
-    4、中介模式：com.xkazxx.designpattern.behaviorMode.mediatorPattern
+    4、观察者模式：com.xkazxx.designpattern.behaviorMode.observerPattern
+    
+    5、中介模式：com.xkazxx.designpattern.behaviorMode.mediatorPattern
+
+    6、备忘录模式：com.xkazxx.designpattern.behaviorMode.memorandumPattern
+    
+    7、解释器模式：
+    
+    8、状态模式
+    
+    9、策略模式
+
+    10、责任链模式
+
+    11、访问者模式
