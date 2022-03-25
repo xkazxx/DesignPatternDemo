@@ -44,6 +44,6 @@
     
     9、策略模式：com.xkazxx.designpattern.behaviorMode.strategyPattern
 
-    10、责任链模式
+    10、责任链模式：com.xkazxx.designpattern.behaviorMode.chainOfRespPattern
 
-    11、访问者模式
+    11、访问者模式：com.xkazxx.designpattern.behaviorMode.visitorPattern
