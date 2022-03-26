@@ -15,7 +15,35 @@ public class VisitorPatternClient {
 	 */
 	public static void main(String[] args) {
 
+		
 		BusinessReport businessReport = new BusinessReport();
+		// accept 模拟员工入职
+		Manager manager1 = new Manager("经理-A", 10);
+		Manager manager2 = new Manager("经理-B", 12);
+		Engineer engineer1 = new Engineer("工程师-A", 10000);
+		Engineer engineer2 = new Engineer("工程师-B", 12000);
+		Engineer engineer3 = new Engineer("工程师-C", 11000);
+		Engineer engineer4 = new Engineer("工程师-D", 13000);
+		businessReport.accept(manager1);
+		businessReport.accept(manager2);
+		businessReport.accept(engineer1);
+		businessReport.accept(engineer2);
+		businessReport.accept(engineer3);
+		businessReport.accept(engineer4);
+		System.out.println("==========CEO========");
+		businessReport.showReport(new CEOVisitor());
+		System.out.println("==========CTO========");
+		businessReport.showReport(new CTOVisitor());
+
+		// remove 模拟员工离职
+		businessReport.remove(engineer3);
+		businessReport.remove(engineer2);
+		businessReport.remove(engineer1);
+		businessReport.remove(manager1);
+
+		System.out.println();
+		System.out.println();
+		System.out.println();
 		System.out.println("==========CEO========");
 		businessReport.showReport(new CEOVisitor());
 		System.out.println("==========CTO========");

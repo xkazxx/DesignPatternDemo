@@ -13,15 +13,10 @@ import java.util.List;
  **/
 public class BusinessReport {
 
-	private final List<Staff> mStaffs = new LinkedList<>();
+	private final List<Staff> mStaffs;
 
 	public BusinessReport() {
-		mStaffs.add(new Manager("经理-A", 10));
-		mStaffs.add(new Engineer("工程师-A", 10000));
-		mStaffs.add(new Engineer("工程师-B", 12000));
-		mStaffs.add(new Engineer("工程师-C", 11000));
-		mStaffs.add(new Manager("经理-B", 12));
-		mStaffs.add(new Engineer("工程师-D", 13000));
+		mStaffs = new LinkedList<>();
 	}
 
 	/**
@@ -33,5 +28,13 @@ public class BusinessReport {
 		for (Staff staff : mStaffs) {
 			staff.accept(visitor);
 		}
+	}
+
+	public void accept(Staff staff) {
+		mStaffs.add(staff);
+	}
+
+	public void remove(Staff staff) {
+		mStaffs.remove(staff);
 	}
 }
